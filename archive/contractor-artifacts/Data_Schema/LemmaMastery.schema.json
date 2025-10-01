@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LemmaMastery",
+  "type": "object",
+  "properties": {
+    "lemmaId": {
+      "type": "string"
+    },
+    "mastery": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "uncertainty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "lastSeen": {
+      "type": "integer"
+    },
+    "easiness": {
+      "type": "number"
+    },
+    "reps": {
+      "type": "integer"
+    },
+    "lapses": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "lemmaId",
+    "mastery",
+    "lastSeen"
+  ]
+}
