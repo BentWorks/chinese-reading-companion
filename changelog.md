@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Git & GitHub setup
   - [GIT_SETUP_SUMMARY.md](GIT_SETUP_SUMMARY.md) - Version control documentation
   - `.gitignore` - Comprehensive exclusions
-  - Repository: https://github.com/BentWorks/chinese-reading-companion
+  - Repository: https://github.com/BentWorks/reading-companion
 
 ### Changed
 - Cost structure: $5 one-time (Chrome Web Store) + $0/month (free tiers)

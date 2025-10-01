@@ -43,7 +43,7 @@ cd c:\Users\dougb\Projects\LanguageLearningModel
 pnpm dlx create-turbo@latest
 
 # When prompted:
-# - Name: chinese-reading-companion
+# - Name: reading-companion
 # - Package manager: pnpm
 # - Template: basic (React + TypeScript)
 
@@ -52,7 +52,7 @@ pnpm dlx create-turbo@latest
 
 **Expected structure after**:
 ```
-chinese-reading-companion/
+reading-companion/
 ├── apps/
 │   ├── web/           # Web app (Vite + React)
 │   └── docs/          # (Delete this, we don't need it)

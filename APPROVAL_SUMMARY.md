@@ -270,7 +270,7 @@ See full strategy: [SEO_STRATEGY.md](SEO_STRATEGY.md)
 
 ---
 
-**Repository**: https://github.com/BentWorks/chinese-reading-companion
+**Repository**: https://github.com/BentWorks/reading-companion
 **All changes pushed**: Commit `a7fe2af`
 
 **I'm ready when you are! 🚀**

@@ -1,6 +1,9 @@
-# Chinese Reading Companion
+# Reading Companion
 
-**A browser extension and web app that helps Chinese learners find the perfect articles and read with confidence.**
+**A browser extension and web app that helps language learners find the perfect articles and read with confidence.**
+
+**Currently supporting**: Chinese (Simplified & Traditional)
+**Coming soon**: Japanese, Korean, Spanish, and more!
 
 ---
 

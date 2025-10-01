@@ -24,7 +24,7 @@
 
 ## 📍 Repository Information
 
-**GitHub URL**: https://github.com/BentWorks/chinese-reading-companion
+**GitHub URL**: https://github.com/BentWorks/reading-companion
 
 **Repository Details**:
 - **Owner**: BentWorks
@@ -97,7 +97,7 @@ Status: Planning complete, awaiting approval to begin Phase 0
 
 ### Remote
 ```
-origin  https://github.com/BentWorks/chinese-reading-companion.git
+origin  https://github.com/BentWorks/reading-companion.git
 ```
 
 ### Branch
@@ -222,10 +222,10 @@ Make sure no secrets are being committed!
 
 ## 🔗 Useful GitHub Links
 
-**Repository**: https://github.com/BentWorks/chinese-reading-companion
-**Clone URL**: `https://github.com/BentWorks/chinese-reading-companion.git`
-**Issues**: https://github.com/BentWorks/chinese-reading-companion/issues
-**Settings**: https://github.com/BentWorks/chinese-reading-companion/settings
+**Repository**: https://github.com/BentWorks/reading-companion
+**Clone URL**: `https://github.com/BentWorks/reading-companion.git`
+**Issues**: https://github.com/BentWorks/reading-companion/issues
+**Settings**: https://github.com/BentWorks/reading-companion/settings
 
 ---
 

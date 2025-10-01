@@ -122,7 +122,7 @@ LanguageLearningModel/
 
 **After setup (Day 1)**:
 ```
-chinese-reading-companion/                 (New monorepo root)
+reading-companion/                 (New monorepo root)
 ├── apps/
 │   ├── web/                               (Vite + React web app)
 │   └── extension/                         (Browser extension)
