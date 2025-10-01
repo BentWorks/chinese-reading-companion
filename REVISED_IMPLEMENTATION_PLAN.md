@@ -268,15 +268,42 @@
 
 **Goal**: Scale content library, improve recommendations, add community features
 
-### P2.1: Automated Content Crawling (Week 1-2)
-- [ ] Set up scheduled crawler (daily cron job)
-- [ ] Identify 10-15 RSS feeds from reputable Chinese sources
-- [ ] Crawl and analyze 10-20 new articles per day
-- [ ] Implement content quality filters (min word count, language detection)
-- [ ] Build moderation queue (review before publishing)
-- [ ] Test with 1 month of automated crawling (200-400 articles)
+### P2.1: Automated Content Crawling - Dual Strategy (Week 1-2)
 
-**Deliverable**: Self-sustaining content pipeline
+**Approach**: Deploy BOTH crawlers simultaneously to maximize content acquisition and A/B test which works best.
+
+#### GitHub Actions Crawler
+- [ ] Create Node.js crawler script in `.github/workflows/`
+- [ ] Set up daily cron schedule (runs at midnight)
+- [ ] Configure to crawl 10-15 sources from `updated-chinese-websites.md`
+- [ ] Extract text with Mozilla Readability
+- [ ] Analyze with jieba-wasm
+- [ ] Store results to Supabase via API
+- [ ] Target: 10-15 articles/day
+
+#### Supabase Edge Function Crawler
+- [ ] Create Deno-based crawler in Supabase Edge Functions
+- [ ] Set up daily cron trigger (runs at noon, offset from GitHub Actions)
+- [ ] Configure to crawl different 10-15 sources from `updated-chinese-websites.md`
+- [ ] Extract and analyze articles
+- [ ] Store directly to Supabase database
+- [ ] Target: 10-15 articles/day
+
+#### Shared Infrastructure
+- [ ] Content quality filters (min 200 characters, Chinese language detection)
+- [ ] Duplicate detection (don't re-crawl same URL)
+- [ ] Error handling and logging
+- [ ] Moderation queue for manual review
+- [ ] Performance monitoring dashboard
+
+#### A/B Testing & Optimization (Week 2)
+- [ ] Compare success rates (GitHub Actions vs Supabase)
+- [ ] Measure latency and reliability
+- [ ] Track article quality scores
+- [ ] Decide: Keep both, choose one, or optimize hybrid
+- [ ] Test with 1 month of automated crawling (400-600 articles total)
+
+**Deliverable**: Self-sustaining content pipeline with 20-30 articles/day from dual crawlers
 
 ---
 

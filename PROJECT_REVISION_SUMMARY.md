@@ -146,16 +146,20 @@ You clarified that the contractor's original plan didn't match your vision in se
 
 ## 💰 Cost Breakdown
 
-| Service | Free Tier | Paid (if needed) |
-|---------|-----------|------------------|
-| Supabase | 50k rows, 500MB storage, 2GB bandwidth | $25/month (generous limits) |
-| Vercel | Unlimited deployments | $0 (free tier sufficient) |
-| Fly.io (crawler) | N/A (not in MVP) | $5-10/month (Phase 2+) |
-| Chrome Web Store | One-time $5 | N/A |
-| Domain | ~$12/year | N/A |
-| **MVP Total** | **~$5 one-time** | **$0/month** |
+| Service | MVP Cost | Notes |
+|---------|----------|-------|
+| **Chrome Web Store** | $5 (one-time) | Required to publish extension |
+| **Firefox Add-ons** | $0 | Free to publish |
+| **Supabase** | $0/month | Free tier: 50k rows, 500MB, 2GB bandwidth - supports 1,000+ users |
+| **Vercel** | $0/month | Free tier: unlimited deployments |
+| **Crawler (GitHub Actions)** | $0/month | Free tier: 2,000 minutes/month (public repos) |
+| **Crawler (Supabase Edge Functions)** | $0/month | Free tier: 500k invocations/month |
+| **Domain** | $0 (later: ~$12/year) | Use Vercel subdomain for MVP, custom domain later |
+| **Total MVP** | **$5 one-time** | **$0/month ongoing** |
 
-**Free tier supports 1000+ users easily**
+**When you'd pay** (future):
+- 10,000+ users: Supabase Pro ($25/month) - but you'd have revenue by then!
+- Custom domain: ~$12/year (optional, when branding finalized)
 
 ---
 

@@ -69,20 +69,22 @@
 ```
 LanguageLearningModel/
 ├── START_HERE.md                          ⭐ Start here!
+├── README.md                              📖 This file
 ├── QUICK_START_GUIDE.md                   🎬 Day 1 setup
 ├── PROJECT_REVISION_SUMMARY.md            📋 Decision summary
 ├── VISUAL_ROADMAP.md                      👁️ Visual overview
-├── REVISED_IMPLEMENTATION_PLAN.md         📅 Detailed plan
-├── REVISED_TECH_STACK.md                  🛠️ Tech choices
-├── COMPARISON_AND_RECOMMENDATIONS.md      🔍 Analysis
-├── CLAUDE.md                              🤖 AI guidelines
-├── PRD.md                                 📄 Original requirements
-├── Tech_Spec.md                           📄 Original architecture
-├── Legal_Compliance_Checklist.md         ⚖️ Legal guidelines
-├── Roadmap.md                             📄 Original roadmap
-└── archive/                               📦 Archived files
-    ├── contractor-artifacts/              (Original skeleton code)
-    └── superseded-planning/               (Old planning docs)
+├── REVISED_IMPLEMENTATION_PLAN.md         📅 Detailed plan (17 weeks)
+├── REVISED_TECH_STACK.md                  🛠️ Tech stack & decisions
+├── COMPARISON_AND_RECOMMENDATIONS.md      🔍 Original vs revised
+├── SEO_STRATEGY.md                        🔍 SEO & discoverability
+├── CLAUDE.md                              🤖 AI development guidelines
+├── updated-chinese-websites.md            📰 Article sources (20+ sites)
+├── GIT_SETUP_SUMMARY.md                   📦 Git & GitHub setup
+├── CLEANUP_SUMMARY.md                     🗑️ Project cleanup log
+├── PRD.md                                 📄 Original product requirements
+├── Tech_Spec.md                           📄 Original technical spec
+├── Legal_Compliance_Checklist.md         ⚖️ Legal & privacy guidelines
+└── Roadmap.md                             📄 Original roadmap (reference)
 ```
 
 ---
